@@ -102,6 +102,11 @@ const beerData = [
         "name" : "øyvind",
         "beer" : "4"
     },
+     //   "21": 
+    {
+        "name" : "edvard",
+        "beer" : "4"
+    },
  //   "21": 
     {
         "name" : "edvard",
