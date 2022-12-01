@@ -7,7 +7,7 @@ function App() {
     const temp = beerData.map((o, i) => (
       <div className="beer-row">
         <span className="beer-name">{o.name}</span>
-        <span className="beer-number">{o.beer}</span>
+        <span className="beer-number">nr.{o.beer}</span>
         <span className="beer-date">{i + 1}. desember</span>
       </div>
     ))

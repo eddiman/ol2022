@@ -22,11 +22,8 @@ text-transform: capitalize;
 text-align: center;
 }
 
-.beer-date {
-
+.beer-date, .beer-number {
   text-transform: lowercase;
-
-
 }
 /* SNOOW ****/
 
