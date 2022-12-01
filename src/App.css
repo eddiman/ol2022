@@ -9,6 +9,12 @@ position: relative;
  align-items: center;
  font-size: 38px;
 }
+
+@media screen and (max-width: 600px) {
+  .beer-container {
+    font-size: 24px;
+  }
+}
 .beer-row {
   display: flex;
   border-bottom: 1px solid rgba(255,255,255,0.2);
