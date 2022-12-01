@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import beerData from './data'
 
 function App() {
+  const BeerElement = () => {
+    const temp = beerData.map((o, i) => (
+      <div className="beer-row">
+        <span className="beer-name">{o.name}</span>
+        <span className="beer-number">{o.beer}</span>
+        <span className="beer-date">{i + 1}. desember</span>
+      </div>
+    ))
+
+    return <>{temp}</>
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+        <div className="beer-container">
+          <h1>🍺 Ølkalendåren 2022 🍺</h1>
+          <BeerElement />
+        </div>
+
+      </main>
+      {
+          <div className="snow">
+            <div></div>
+          </div>
+        }
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
