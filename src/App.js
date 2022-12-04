@@ -37,6 +37,7 @@ function App() {
         <div className="beer-container">
           <h1>🍺 Ølkalendåren 2022 🍺</h1>
           <a href="https://bfktinius.zoom.us/j/9306733551" target={"_blank"}>Zoom-link</a>
+          <a href="https://docs.google.com/spreadsheets/d/12NIGK5fl9ToiR0Dr75x6Mrrj4EhqTUChQd3RfYHKmYU/edit#gid=934078109" target={"_blank"}>Google Docs</a>
 
           <BeerElement />
         </div>
