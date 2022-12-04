@@ -12,10 +12,19 @@ body {
   h1 {
     font-size: 48px;
     text-align: center;
+    font-weight: 700;
   }
 
   @media screen and (max-width: 600px) {
     h1 {
       font-size: 38px;
     }
+  }
+
+  a {
+    color: white;
+  }
+  a:hover {
+    color: rgb(255, 195, 54);
+    transition: color .1s ease-in-out;
   }
