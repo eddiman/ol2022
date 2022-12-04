@@ -49,10 +49,16 @@ function App() {
           <ImageElement imgUrl={ViljarImg} name="Viljar" />
         </div>
       </main>
-      {/*
+
+
+      {
         <div className="snow">
           <div></div>
-        </div>*/}
+          
+        </div>
+        
+        
+        }
     </div>
   )
 }
