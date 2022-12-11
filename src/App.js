@@ -11,7 +11,7 @@ import ViljarImg from './images/viljar.jpeg'
 function App() {
   const BeerElement = () => {
     const temp = beerData.map((o, i) => (
-      <div className="beer-row">
+      <div className={`beer-row ${o.marked ? "marked" : ""}`} >
         <span className="beer-name header-primary">{o.name}</span>
         <span className="beer-number">{o.beer}</span>
         <span className="beer-date">{i + 1}. desember</span>

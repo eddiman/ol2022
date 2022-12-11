@@ -2,61 +2,72 @@ const beerData = [
     //"1": 
     {
         "name" : "dankel",
-        "beer" : "1"
+        "beer" : "1",
+        "marked": true
     },
     //"2": 
     {
         "name" : "viljar",
-        "beer" : "1"
+        "beer" : "1",
+        "marked": true
     },
    //"3": 
     {
         "name" : "kim",
-        "beer" : "1"
+        "beer" : "1",
+        "marked": true
     },
     //"4": 
     {
         "name" : "øyvind",
-        "beer" : "1"
+        "beer" : "1",
+        "marked": true
     },
     //"5": 
     {
         "name" : "edvard",
-        "beer" : "1"
+        "beer" : "1",
+        "marked": true
     },
 
 
    // "6": 
     {
         "name" : "dankel",
-        "beer" : "2"
+        "beer" : "2",
+        "marked": true
     },
    // "7": 
     {
         "name" : "viljar",
-        "beer" : "2"
+        "beer" : "2",
+        "marked": true
     },
   //  "8": 
     {
         "name" : "kim",
-        "beer" : "2"
+        "beer" : "2",
+        "marked": true
     },
    // "9": 
     {
         "name" : "øyvind",
-        "beer" : "2"
+        "beer" : "2",
+        "marked": true
     },
     //"10": 
     {
         "name" : "edvard",
-        "beer" : "2"
+        "beer" : "2",
+        "marked": true
     },
 
 
    // "11": 
     {
         "name" : "dankel",
-        "beer" : "3"
+        "beer" : "3",
+        "marked": true
     },
   //  "12": 
     {
