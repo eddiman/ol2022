@@ -72,22 +72,26 @@ const beerData = [
   //  "12": 
     {
         "name" : "viljar",
-        "beer" : "3"
+        "beer" : "3",
+        "marked": true
     },
    // "13": 
     {
         "name" : "kim",
-        "beer" : "4"
+        "beer" : "3",
+        "marked": true
     },
   //  "14": 
     {
         "name" : "øyvind",
-        "beer" : "3"
+        "beer" : "3",
+        "marked": true
     },
   //  "16": 
     {
         "name" : "edvard",
-        "beer" : "3"
+        "beer" : "3",
+        "marked": true
     },
     
 
