@@ -100,17 +100,22 @@ const beerData = [
  //   "17": 
     {
         "name" : "dankel",
-        "beer" : "4"
+        "beer" : "4",
+        "marked": true
+
     },
   //  "18": 
     {
         "name" : "viljar",
-        "beer" : "4"
+        "beer" : "4",
+        "marked": true
     },
   //  "19": 
     {
         "name" : "kim",
-        "beer" : "4"
+        "beer" : "4",
+        "marked": true
+
     },
    // "20": 
     {
@@ -125,7 +130,8 @@ const beerData = [
  //   "21": 
     {
         "name" : "edvard",
-        "beer" : "5"
+        "beer" : "5",
+        "marked": true
     }
 
 ]
